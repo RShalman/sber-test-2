@@ -1,0 +1,61 @@
+:root {
+  --color-blue: black;
+}
+
+.app *:before,
+.app *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: white;
+  color: var(--color-blue);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.table {
+  width: 80vw;
+}
+
+.current {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  text-align: center;
+  min-height: 400px;
+}
+
+.tableWrapper {
+  position: relative;
+}
+
+.header {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.currentRate {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.historyList {
+  position: relative;
+  list-style: none;
+  padding: 0;
+}
+
+.historyEl {
+  position: relative;
+}
